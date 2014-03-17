@@ -1,0 +1,28 @@
+diff a/app/routes.php b/app/routes.php	(rejected hunks)
+@@ -1,12 +1,17 @@
+ <?php
+ 
++/*
++|--------------------------------------------------------------------------
++| Application Routes
++|--------------------------------------------------------------------------
++|
++| Here is where you can register all of the routes for an application.
++| It's a breeze. Simply tell Laravel the URIs it should respond to
++| and give it the Closure to execute when that URI is requested.
++|
++*/
++
+ Route::get('/', function()
+ {
+ 	return View::make('hello');
+-});
+-
+-Route::get('test', array(
+-	'as' 	=> 'test',
+-	'uses' 	=> 'TestController@test1'
+-	)
+-);
+\ No newline at end of file
++});
+\ No newline at end of file
