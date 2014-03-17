@@ -1,0 +1,15 @@
+diff a/app/config/database.php b/app/config/database.php	(rejected hunks)
+@@ -54,10 +54,10 @@
+ 
+ 		'mysql' => array(
+ 			'driver'    => 'mysql',
+-			'host'      => '212.83.232.237:3306',
++			'host'      => 'localhost',
+ 			'database'  => 'database',
+-			'username'  => 'confusingbucket',
+-			'password'  => 'bucket007',
++			'username'  => 'root',
++			'password'  => '',
+ 			'charset'   => 'utf8',
+ 			'collation' => 'utf8_unicode_ci',
+ 			'prefix'    => '',

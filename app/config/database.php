@@ -54,10 +54,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
+			'host'      => '212.83.232.237:3306',
 			'database'  => 'database',
-			'username'  => 'root',
-			'password'  => '',
+			'username'  => 'confusingbucket',
+			'password'  => 'bucket007',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
