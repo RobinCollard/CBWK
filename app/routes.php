@@ -13,7 +13,7 @@
 
 Route::get('/', array(
 	'as'	=> 'test',
-	'use'	=> 'TestController@test1'
+	'uses'	=> 'TestController@test1'
 ));
 
 
