@@ -11,11 +11,10 @@
 |
 */
 
-Route::get('/', array(
-	'as'	=> 'test',
-	'uses'	=> 'TestController@test1'
-));
-
+Route::get('/', function()
+{
+	return View::make('hello');
+});
 
 Route::get('/test', array(
 	'as'	=> 'test',
