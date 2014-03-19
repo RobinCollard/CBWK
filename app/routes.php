@@ -16,7 +16,9 @@ Route::get('/', function()
 	return View::make('hello');
 });
 
-Route::get('/test', array(
+Route::get('test', array(
 	'as'	=> 'test',
 	'uses'	=> 'TestController@test1'
 ));
+
+Route::any('test1', 'TestController@test1');
