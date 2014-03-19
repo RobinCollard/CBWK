@@ -54,14 +54,25 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
+			'host'      => '212.83.232.237:3306',
+			'database'  => 'Worldmap',
+			'username'  => 'confusingbucket',
+			'password'  => 'bucket007',
+			'charset'   => 'utf8',
+			'collation' => 'utf8_unicode_ci',
+			'prefix'    => '',
+		),
+
+		/*'mysql' => array(
+			'driver'    => 'mysql',
 			'host'      => 'mysql.hostfree.nl',
-			'database'  => 'u199057476_a',
+			'database'  => 'u199057476_A',
 			'username'  => 'u199057476_root',
 			'password'  => '123456',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
-		),
+		),*/
 
 		'pgsql' => array(
 			'driver'   => 'pgsql',
