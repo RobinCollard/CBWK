@@ -11,14 +11,12 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+Route::get('/', array(
+	'as'	=> 'Home',
+	'uses'	=> 'IndexController@index'
+));
 
 Route::get('test', array(
 	'as'	=> 'test',
 	'uses'	=> 'TestController@test1'
 ));
-
-Route::any('test1', 'TestController@test1');
